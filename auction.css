@@ -1,0 +1,129 @@
+body {
+
+    background-image: url("Photos/Background\ image.jpg");
+
+    background-repeat: no-repeat;
+
+    background-size:cover;
+
+    background-position:center;
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 20px 7%;
+
+  }
+
+
+  h1 {
+
+    text-align: center;
+
+    color:maroon;
+
+  }
+
+  .header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position:absolute;
+    width:100px\\;
+   }
+   
+   .header img {
+    width: 300px;
+    height: 300px;
+    margin-right: 10px;
+   }
+   
+   .header h1 {
+    font-size: 24px;
+    color: black;
+   }
+   has context menu
+
+
+  .bid-items {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 50px;
+
+  }
+
+
+  .bid-item {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    text-align: center;
+
+    background-color:antiquewhite;
+
+    padding: 20px;
+
+    border-radius: 5px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  }
+
+
+  .bid-item img {
+
+    width:200px;
+
+    height:200px;
+
+    object-fit: cover;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+  }
+
+
+  .bid-item p {
+
+    margin-top: 10px;
+
+    font-weight: bold;
+
+  }
+
+
+  .bid-item span {
+
+    font-weight: normal;
+
+  }
+
+  .bid-item input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+   }
+   
+   .bid-item .bid-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   }
